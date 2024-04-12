@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "alqalign"
+version = "0.1.0"
+description = "Xinjian Li's multilingual speech aligner"
+authors = ["Xinjian Li"]
+license = "Apache-2.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scipy = "^1.13.0"
+numpy = "^1.26.4"
+panphon = "^0.20.0"
+editdistance = "^0.8.1"
+requests = "^2.31.0"
+tqdm = "^4.66.2"
+PyYAML = "^6.0.1"
+iso-639 = {git = "https://github.com/noumar/iso639.git", tag = "0.4.5"}
+phonepiece = "^1.4.2"
+epitran = "^1.25"
+Unidecode = "^1.3.8"
+setuptools = "^69.2.0"
+Cython = "^3.0.10"
+kaldiio = "^2.18.0"
+transphone = "^1.5.3"
+torch = "^2.2.2"
+torchaudio = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
