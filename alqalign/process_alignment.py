@@ -1,6 +1,6 @@
 from genericpath import exists
 from pathlib import Path
-from symbol import parameters
+#from symbol import parameters
 from alqalign.model import read_phoneme_inventory
 import torchaudio
 from alqalign.config import logger
