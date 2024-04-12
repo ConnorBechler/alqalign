@@ -42,7 +42,7 @@ sympy
 torch
 torchaudio
 tqdm
-transphone
+transphone>=1.5.3
 typing_extensions
 unicodecsv
 Unidecode
