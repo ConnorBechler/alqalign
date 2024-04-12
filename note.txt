@@ -1,0 +1,1 @@
+CB: I had to go into .venv site packages to modify g2pk to modify "import mecab" to be "import MeCab" for this to work

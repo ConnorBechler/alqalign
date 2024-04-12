@@ -25,7 +25,9 @@ kaldiio = "^2.18.0"
 transphone = "^1.5.3"
 torch = "^2.2.2"
 torchaudio = "^2.2.2"
-
+jamo = "^0.4.1"
+g2pk = "^0.9.4"
+mecab-python3 = "^1.0.8"
 
 [build-system]
 requires = ["poetry-core"]
