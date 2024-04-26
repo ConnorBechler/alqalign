@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "alqalign"
 version = "0.1.0"
-description = "Xinjian Li's multilingual speech aligner"
-authors = ["Xinjian Li"]
+description = "multilingual speech aligner"
+authors = ["Xinjian Li" <xinjianl@cs.cmu.edu>]
 license = "Apache-2.0 license"
 readme = "README.md"
 
